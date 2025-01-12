@@ -62,7 +62,7 @@ const Review = () => {
     return (
         <section id="reviews" className="section overflow-hidden">
             <div className="container">
-                <h2 className="headline-2 mb-8 text-center">Testimonios de los Clientes</h2>
+                <h2 className="headline-2 mb-8 text-center reveal-up">Testimonios de los Clientes</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-12">
                     {getPaginatedReviews().map(({ content, name, imgSrc, company }, key) => (
                         <ReviewCard 
