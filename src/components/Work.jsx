@@ -14,10 +14,10 @@ const works = [
         projectLink: "https://github.com/felipecastillo-b/",
     },
     {
-        imgSrc: "/images/project-1.jpg",
+        imgSrc: "/images/project-2.png",
         title: "eCommerce for STYLEHUBCL",
         tags: ["eCommerce", "Development"],
-        projectLink: "https://github.com/felipecastillo-b/",
+        projectLink: "https://stylehubcl.vercel.app/",
     },
     {
         imgSrc: "/images/project-1.jpg",
