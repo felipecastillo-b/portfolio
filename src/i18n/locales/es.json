@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre mí",
+    "work": "Proyectos",
+    "review": "Reseñas",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Disponible para Trabajar",
+    "subtitle": "Creación de soluciones modernas y escalables para el futuro",
+    "download_cv": "Descargar CV",
+    "continue": "Seguir viendo"
+  },
+  "about": {
+    "projects_count": "Proyectos Completados",
+    "years_experience": "Años de Experiencia",
+    "description": "¡Bienvenidos! Soy Felipe, un Desarrollador FullStack con un don para crear sitios web y aplicaciones visualmente impactantes y altamente funcionales. Combinando creatividad y experiencia técnica, transformo su visión en una obra maestra digital que se destaca tanto en apariencia como en rendimiento."
+  },
+  "skill": {
+    "title": "Tecnologías que utilizo",
+    "subtitle": "Descubra las potentes herramientas y tecnologías que uso para crear sitios web y aplicaciones excepcionales y de alto rendimiento."
+  },
+  "work": {
+    "title": "Mis Proyectos Destacados"
+  },
+  "review": {
+    "title": "Testimonios de los Clientes",
+    "review_1": "Se entregó una Landing Page impecable y responsivo con un código limpio y una excelente experiencia de usuario.",
+    "review_2": "¡Excelente trabajo! Tiempos de carga rápidos, diseño intuitivo e integración impecable. Muy recomendable.",
+    "review_3": "Se entregó una Landing Page deacuerdo al tiempo estimado, ademas de atractiva para los usuarios finales."
+  },
+  "contact": {
+    "title": "Contáctame para colaborar",
+    "subtitle": "¡Comuníquese hoy para analizar las necesidades de su proyecto y comenzar a colaborar en algo increíble!",
+    "form_name": "Nombre",
+    "form_email": "Email",
+    "form_message": "Mensaje",
+    "form_submit": "Enviar"
+  },
+  "footer": {
+    "title": "Empezemos a Trabajar!",
+    "start_project": "Empezar Proyecto",
+    "section": "Secciones",
+    "social": "Redes Sociales"
+  }
+}

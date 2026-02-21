@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "work": "Work",
+    "review": "Reviews",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Available for Work",
+    "subtitle": "Creating modern, scalable solutions for the future",
+    "download_cv": "Download CV",
+    "continue": "Continue"
+  },
+  "about": {
+    "projects_count": "Completed Projects",
+    "years_experience": "Years of Experience",
+    "description": "Welcome! I'm Felipe, a FullStack Developer with a knack for creating visually stunning and highly functional websites and applications. Combining creativity and technical expertise, I transform your vision into a digital masterpiece that stands out in both appearance and performance."
+  },
+  "skill": {
+    "title": "Technologies I use",
+    "subtitle": "Discover the powerful tools and technologies I use to create exceptional, high-performance websites and applications."
+  },
+  "work": {
+    "title": "My Featured Projects"
+  },
+  "review": {
+    "title": "Customer Testimonials",
+    "review_1": "An impeccable and responsive landing page was delivered with clean code and an excellent user experience.",
+    "review_2": "Excellent work! Fast loading times, intuitive design, and flawless integration. Highly recommended.",
+    "review_3": "A landing page was delivered on time and was attractive to end users."
+  },
+  "contact": {
+    "title": "Contact me to collaborate",
+    "subtitle": "Get in touch today to discuss your project needs and start collaborating on something amazing!",
+    "form_name": "Name",
+    "form_email": "Email",
+    "form_message": "Message",
+    "form_submit": "Submit"
+  },
+  "footer": {
+    "title": "Let's Get Started!",
+    "start_project": "Start Project",
+    "section": "Sections",
+    "social": "Social Media"
+  }
+}
