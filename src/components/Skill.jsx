@@ -13,8 +13,8 @@ const skillItem = [
     desc: "User Interface",
   },
   {
-    imgSrc: "/images/javascript.svg",
-    label: "JavaScript",
+    imgSrc: "/images/typescript.svg",
+    label: "TypeScript",
     desc: "Interaction",
   },
   {
@@ -43,14 +43,24 @@ const skillItem = [
     desc: "Database Relational",
   },
   {
-    imgSrc: "/images/react.svg",
-    label: "React",
+    imgSrc: "/images/nextjs.svg",
+    label: "NextJS",
     desc: "Framework",
   },
   {
     imgSrc: "/images/tailwindcss.svg",
     label: "TailwindCSS",
     desc: "User Interface",
+  },
+  {
+    imgSrc: "/images/java.svg",
+    label: "Java",
+    desc: "Backend",
+  },
+  {
+    imgSrc: "/images/linux.svg",
+    label: "Linux",
+    desc: "Cloud | Servers",
   },
 ];
 
