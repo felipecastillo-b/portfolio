@@ -3,16 +3,28 @@ import { useTranslation } from "react-i18next";
 
 const works = [
   {
-    imgSrc: "/images/project-1.jpg",
-    title: "Newsletter FullStack",
-    tags: ["API", "MVC", "Development"],
-    projectLink: "https://github.com/felipecastillo-b/",
+    imgSrc: "/images/project-6.webp",
+    title: "Job Portal for Devs",
+    tags: ["Java Spring", "Nextjs", "Python Pandas"],
+    projectLink: "https://github.com/Open-Codex/job-portal-api",
   },
   {
-    imgSrc: "/images/project-1.jpg",
-    title: "Warehouse v2.0 FullStack",
-    tags: ["API", "MVC", "Data Science"],
-    projectLink: "https://github.com/felipecastillo-b/",
+    imgSrc: "/images/project-5.webp",
+    title: "AI Prompts Library",
+    tags: ["Nextjs", "Firebase", "AI Prompts"],
+    projectLink: "https://prompts.opencodex.app/",
+  },
+  {
+    imgSrc: "/images/project-4.webp",
+    title: "OpenCodex Blog",
+    tags: ["Astro", "SEO", "Dev Blog"],
+    projectLink: "http://blog-es.opencodex.app/",
+  },
+  {
+    imgSrc: "/images/project-3.webp",
+    title: "Psicologia Temprana",
+    tags: ["Astro", "SEO"],
+    projectLink: "https://psicologiatemprana.cl/",
   },
   {
     imgSrc: "/images/project-2.png",
