@@ -2,66 +2,66 @@ import ProjectCard from "./ProjectCard";
 import { useTranslation } from "react-i18next";
 
 const works = [
-  {
-    imgSrc: "/images/project-6.webp",
-    title: "Job Portal for Devs",
-    tags: ["Java Spring", "Nextjs", "Python Pandas"],
-    projectLink: "https://github.com/Open-Codex/job-portal-api",
-  },
-  {
-    imgSrc: "/images/project-5.webp",
-    title: "AI Prompts Library",
-    tags: ["Nextjs", "Firebase", "AI Prompts"],
-    projectLink: "https://prompts.opencodex.app/",
-  },
-  {
-    imgSrc: "/images/project-4.webp",
-    title: "OpenCodex Blog",
-    tags: ["Astro", "SEO", "Dev Blog"],
-    projectLink: "http://blog-es.opencodex.app/",
-  },
-  {
-    imgSrc: "/images/project-3.webp",
-    title: "Psicologia Temprana",
-    tags: ["Astro", "SEO"],
-    projectLink: "https://psicologiatemprana.cl/",
-  },
-  {
-    imgSrc: "/images/project-2.png",
-    title: "eCommerce for STYLEHUBCL",
-    tags: ["eCommerce", "Development"],
-    projectLink: "https://stylehubcl.vercel.app/",
-  },
-  {
-    imgSrc: "/images/project-1.jpg",
-    title: "Warehouse v1.0 FullStack",
-    tags: ["API", "MVC", "Data Science"],
-    projectLink: "https://github.com/felipecastillo-b/api-bodega",
-  },
+	{
+		imgSrc: "/images/project-6.webp",
+		title: "Portal for Devs",
+		tags: ["NestJs", "Nextjs", "PostgreSQL"],
+		projectLink: "https://opencodex.app/",
+	},
+	{
+		imgSrc: "/images/project-5.webp",
+		title: "AI Prompts Library",
+		tags: ["Nextjs", "Firebase", "AI Prompts"],
+		projectLink: "https://prompts.opencodex.app/",
+	},
+	{
+		imgSrc: "/images/project-4.webp",
+		title: "OpenCodex Blog",
+		tags: ["Astro", "SEO", "Dev Blog"],
+		projectLink: "http://blog-es.opencodex.app/",
+	},
+	{
+		imgSrc: "/images/project-3.webp",
+		title: "Psicologia Temprana",
+		tags: ["Astro", "SEO"],
+		projectLink: "https://psicologiatemprana.cl/",
+	},
+	{
+		imgSrc: "/images/project-2.png",
+		title: "eCommerce for STYLEHUBCL",
+		tags: ["eCommerce", "Development"],
+		projectLink: "https://stylehubcl.vercel.app/",
+	},
+	{
+		imgSrc: "/images/project-1.jpg",
+		title: "Warehouse v1.0 FullStack",
+		tags: ["API", "MVC", "Data Science"],
+		projectLink: "https://github.com/felipecastillo-b/api-bodega",
+	},
 ];
 
 const Work = () => {
-  const { t } = useTranslation();
+	const { t } = useTranslation();
 
-  return (
-    <section id="work" className="section">
-      <div className="container">
-        <h2 className="headline-2 mb-8 reveal-up">{t("work.title")}</h2>
-        <div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
-          {works.map(({ imgSrc, title, tags, projectLink }, key) => (
-            <ProjectCard
-              key={key}
-              imgSrc={imgSrc}
-              title={title}
-              tags={tags}
-              projectLink={projectLink}
-              classes="reveal-up"
-            />
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+	return (
+		<section id="work" className="section">
+			<div className="container">
+				<h2 className="headline-2 mb-8 reveal-up">{t("work.title")}</h2>
+				<div className="grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
+					{works.map(({ imgSrc, title, tags, projectLink }, key) => (
+						<ProjectCard
+							key={key}
+							imgSrc={imgSrc}
+							title={title}
+							tags={tags}
+							projectLink={projectLink}
+							classes="reveal-up"
+						/>
+					))}
+				</div>
+			</div>
+		</section>
+	);
 };
 
 export default Work;
